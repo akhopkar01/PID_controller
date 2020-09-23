@@ -1,5 +1,10 @@
 #include <gtest/gtest.h>
 
-TEST(dummy, should_pass) {
-  EXPECT_EQ(1, 1);
+#include <iostream>
+
+#include "PID.h"
+
+TEST(PIDControllerTest, should_pass) {
+  control::PID pid;
+  ASSERT_NEAR(6, pid.compute(4.0, 8.0), 0.2);
 }
