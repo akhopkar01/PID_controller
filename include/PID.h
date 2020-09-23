@@ -18,7 +18,10 @@ class PID {
   double kd_;
 
  public:
-  double setpoint_;
+  // keep track of previous error
+  double prev_error_;
+
+  // delta time is set to a constant 0.1
   double dt_;
 
   /**
@@ -34,7 +37,7 @@ class PID {
    * @param: None
    * @return: None
    * */
-  PID() : kp_{1.2}, ki_{0.4}, kd_{2.0}, dt_{0.1} {}
+  PID() : kp_{1.2}, ki_{0.4}, kd_{2.0}, dt_{0.1}, prev_error_{0} {}
 
   /**
    * @brief: Destructor call of class

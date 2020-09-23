@@ -5,7 +5,7 @@
 /**
  * @file: main.cpp
  * @brief: Contains the main function of the program
- * @author: Part 1 : Aditya Khopkar (driver)
+ * @author: Part 1 - Aditya Khopkar (driver)
  * */
 
 #include <iostream>
