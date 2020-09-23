@@ -1,6 +1,6 @@
 {
     // cpp general
-    "C_Cpp.clang_format_style": "visual studio",
+    "C_Cpp.clang_format_style": "Google",
 
     // cmake
     "cmake.generator.all": "ninja",
@@ -22,5 +22,6 @@
         "ms-vscode.cpptools",
         "RichardHe.you-complete-me",
         "vector-of-bool.cmake-tools"
-	]
+    ],
+    "C_Cpp.clang_format_fallbackStyle": "Google"
 }
