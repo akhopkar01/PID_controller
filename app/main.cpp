@@ -1,11 +1,11 @@
 /**
- * Copyright 2020 <Aditya Khopkar>
+ * Copyright 2020 <Aditya Khopkar> <Rajeshwar N S>
  * */
 
 /**
  * @file: main.cpp
  * @brief: Contains the main function of the program
- * @author: Part 1 - Aditya Khopkar (driver)
+ * @author: Part 1 - Aditya Khopkar (driver), Rajeshwar N S (navigator)
  * */
 
 #include <iostream>
@@ -23,7 +23,7 @@ int main() {
   control::PID controller;
 
   // get output
-  double new_velocity = controller.compute(1.2, 2.5);
+  double new_velocity = controller.compute(4.0, 8.0);
   std::cout << new_velocity << std::endl;
   return 0;
 }
