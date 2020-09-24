@@ -6,7 +6,7 @@
 ## Overview
 
 This project is worked in groups to carry out TDD.
-Author: [Part 1] Aditya Khopkar (driver), Rajeshwar N S (navigator)
+Author: Part 1 - Aditya Khopkar (driver), Rajeshwar N S (navigator)
 
 ## Standard install via command-line
 ```
