@@ -16,9 +16,9 @@ class PID {
   double kp_;
   double ki_;
   double kd_;
+  double dt_;
   double prev_error_;
   double integral_error_;
-  double dt_;
 
  public:
   /**
@@ -55,21 +55,21 @@ class PID {
    * @param: None
    * @return: const double value
    * */
-  const double get_kp();
+  const double& get_kp();
 
   /**
    * @brief: Getter for kd
    * @param: None
    * @return: const double value
    * */
-  const double get_kd();
+  const double& get_kd();
 
   /**
    * @brief: Getter for ki
    * @param: None
    * @return: const double value
    * */
-  const double get_ki();
+  const double& get_ki();
 
   /**
    * @brief: Implementation of constructor

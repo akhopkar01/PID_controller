@@ -1,11 +1,11 @@
 /**
- * Copyright 2020 <Aditya Khopkar>
+ * Copyright 2020 <Aditya Khopkar> <Rajeshwar N S>
  * */
 
 /**
  * @file: PID.cpp
  * @brief: Contains the class definition of PID control
- * @author: Part 1 : Aditya Khopkar (driver)
+ * @author: Part 1 : Aditya Khopkar (driver), Rajeshwar N S (navigator)
  * */
 
 #include "PID.h"
@@ -23,8 +23,8 @@ double control::PID::compute(double feedback, double setpoint) {
   return 0;
 }
 
-const double control::PID::get_kp() { return this->kp_; }
+const double& control::PID::get_kp() { return this->kp_; }
 
-const double control::PID::get_kd() { return this->kd_; }
+const double& control::PID::get_kd() { return this->kd_; }
 
-const double control::PID::get_ki() { return this->ki_; }
+const double& control::PID::get_ki() { return this->ki_; }
