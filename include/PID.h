@@ -76,19 +76,13 @@ class PID {
    * @param: None
    * @return: None
    * */
-  PID()
-      : kp_{1.2},
-        ki_{0.4},
-        kd_{0.2},
-        dt_{1.0},
-        prev_error_{0},
-        integral_error_{0} {}
+  PID();
 
   /**
    * @brief: Destructor call of class
    * @param: None
    * @return: None
    * */
-  virtual ~PID() {}
+  virtual ~PID();
 };
-}  // namespace control
+}; // namespace control
