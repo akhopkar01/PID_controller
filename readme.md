@@ -13,7 +13,7 @@ Author:
 
 ## Standard install via command-line
 ```
-git clone --recursive https://github.com/akhopkar01/PID_controller
+git clone --recursive https://github.com/selyard/PID_controller
 cd PID_controller
 mkdir build
 cd build
