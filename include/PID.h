@@ -6,6 +6,7 @@
  * @file: PID.h
  * @brief: Contains the class declaration of PID control
  * @author: Part 1 : Aditya Khopkar (driver), Rajeshwar N S (navigator)
+ * @author: Part 2 - Spencer Elyard (driver), Daniel Sahu (navigator)
  * */
 
 #pragma once

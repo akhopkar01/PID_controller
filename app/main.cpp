@@ -6,6 +6,7 @@
  * @file: main.cpp
  * @brief: Contains the main function of the program
  * @author: Part 1 - Aditya Khopkar (driver), Rajeshwar N S (navigator)
+ * @author: Part 2 - Spencer Elyard (driver), Daniel Sahu (navigator)
  * */
 
 #include <iostream>

@@ -6,6 +6,7 @@
  * @file: PID.cpp
  * @brief: Contains the class definition of PID control
  * @author: Part 1 : Aditya Khopkar (driver), Rajeshwar N S (navigator)
+ * @author: Part 2 - Spencer Elyard (driver), Daniel Sahu (navigator)
  * */
 
 #include "PID.h"
