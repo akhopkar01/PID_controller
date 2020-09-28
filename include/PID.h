@@ -27,21 +27,21 @@ class PID {
    * @param: kp: double
    * @return: None
    * */
-  void set_kp(double);
+  void SetKp(double);
 
   /**
    * @brief: Setter for kd
    * @param: kd: double
    * @return: None
    * */
-  void set_kd(double);
+  void SetKd(double);
 
   /**
    * @brief: Setter for ki
    * @param: ki: double
    * @return: None
    * */
-  void set_ki(double);
+  void SetKi(double);
 
   /**
    * @brief: Computes the new value of velocity given a setpoint and current
@@ -49,28 +49,28 @@ class PID {
    * @param: feedback: double, setpoint: double
    * @return: new velocity: double
    * */
-  double compute(double, double);
+  double Compute(double, double);
 
   /**
    * @brief: Getter for kp
    * @param: None
    * @return: const double value
    * */
-  const double& get_kp();
+  const double& GetKp();
 
   /**
    * @brief: Getter for kd
    * @param: None
    * @return: const double value
    * */
-  const double& get_kd();
+  const double& GetKd();
 
   /**
    * @brief: Getter for ki
    * @param: None
    * @return: const double value
    * */
-  const double& get_ki();
+  const double& GetKi();
 
   /**
    * @brief: Implementation of constructor
@@ -86,4 +86,4 @@ class PID {
    * */
   virtual ~PID();
 };
-}; // namespace control
+}  // namespace control
