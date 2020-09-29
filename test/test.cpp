@@ -12,7 +12,7 @@
 
 #include <iostream>
 
-#include "PID.h"
+#include "../include/PID.h"
 
 // instance of the class
 control::PID pid;
