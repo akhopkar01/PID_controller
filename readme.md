@@ -14,7 +14,7 @@ Author:
 
 ## Standard install via command-line
 ```
-git clone --recursive https://github.com/selyard/PID_controller
+git clone --recursive https://github.com/akhopkar01/PID_controller
 cd PID_controller
 mkdir build
 cd build
@@ -32,6 +32,3 @@ make
 make code_coverage
 ```
 This generates a index.html page in the build/coverage sub-directory that can be viewed locally in a web browser.
-
-## TO DO for future:
-- Investigate additional test cases for PID controller
