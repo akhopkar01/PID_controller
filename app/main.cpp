@@ -20,9 +20,7 @@
  * @return: 0
  * */
 int main() {
-  // create instance of PID
   control::PID controller;
-  // get output
   double new_velocity = controller.Compute(4.0, 8.0);
   std::cout << "Actual Velocity: " << 4.0 << " Desired Velocity: " << 8.0
             << " New Velocity: " << new_velocity << std::endl;

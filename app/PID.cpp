@@ -21,11 +21,17 @@ control::PID::PID() {
   integral_error_ = 0.0;
 }
 
-void control::PID::SetKp(double kp) { this->kp_ = kp; }
+void control::PID::SetKp(double kp) {
+  this->kp_ = kp;
+}
 
-void control::PID::SetKd(double kd) { this->kd_ = kd; }
+void control::PID::SetKd(double kd) {
+  this->kd_ = kd;
+}
 
-void control::PID::SetKi(double ki) { this->ki_ = ki; }
+void control::PID::SetKi(double ki) {
+  this->ki_ = ki;
+}
 
 double control::PID::Compute(double feedback, double setpoint) {
   // calculate current error
@@ -43,11 +49,18 @@ double control::PID::Compute(double feedback, double setpoint) {
   return output;
 }
 
-const double& control::PID::GetKp() { return this->kp_; }
+const double& control::PID::GetKp() {
+  return this->kp_;
+}
 
-const double& control::PID::GetKd() { return this->kd_; }
+const double& control::PID::GetKd() {
+  return this->kd_;
+}
 
-const double& control::PID::GetKi() { return this->ki_; }
+const double& control::PID::GetKi() {
+  return this->ki_;
+}
 
 // destructor
-control::PID::~PID() {}
+control::PID::~PID() {
+}
