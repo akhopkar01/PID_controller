@@ -1,5 +1,5 @@
 # PID Controller (Test Driven Development)
-[![Build Status](https://travis-ci.com/akhopkar01/PID_controller.svg?branch=master)](https://travis-ci.com/github/akhopkar01/PID_controller)
+[![Build Status](https://travis-ci.org/akhopkar01/PID_controller.svg?branch=master)](https://travis-ci.com/github/akhopkar01/PID_controller)
 [![Coverage Status](https://coveralls.io/repos/github/akhopkar01/PID_controller/badge.svg?branch=master)](https://coveralls.io/github/akhopkar01/PID_controller?branch=master)
 ---
 
