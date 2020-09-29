@@ -22,6 +22,8 @@ matrix:
 
 before_install:
   - pip install --user cpp-coveralls
+  - sudo -H pip install --upgrade requests[security]
+
 install:
   - sudo apt-get install -y -qq lcov
 script:
@@ -34,6 +36,6 @@ script:
   - test/cpp-test
 
 after_success:
-  - coveralls --root .. -E ".*external.*" -E ".*CMakeFiles.*" -E ".*test/.*.cpp.*" -t WpS2LBk3t7xe2Vt8usbpbp03mDsNUHLud
+  - coveralls --root .. -E ".*external.*" -E ".*CMakeFiles.*" -E ".*test/.*.cpp.*"
 notifications:
   email: false
