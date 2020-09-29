@@ -22,7 +22,8 @@
 int main() {
   control::PID controller;
   double new_velocity = controller.Compute(4.0, 8.0);
+  double kp = controller.GetKp();
   std::cout << "Actual Velocity: " << 4.0 << " Desired Velocity: " << 8.0
-            << " New Velocity: " << new_velocity << std::endl;
+            << " New Velocity: " << new_velocity << " " << kp << std::endl;
   return 0;
 }
