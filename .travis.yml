@@ -34,7 +34,6 @@ script:
   - test/cpp-test
 
 after_success:
-  - coveralls --root .. -E ".*external.*" -E ".*CMakeFiles.*" -E ".*test/.*.cpp.*" -t 8XWBtaqK7X1obrBYliWhEdyiz35hmdl8E
-
+  - coveralls --root .. -E ".*external.*" -E ".*CMakeFiles.*" -E ".*test/.*.cpp.*" -t WpS2LBk3t7xe2Vt8usbpbp03mDsNUHLud
 notifications:
   email: false
